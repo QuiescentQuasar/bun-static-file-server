@@ -1,5 +1,13 @@
 # bun-static-file-server
 
+A very simple static file server in the Bun JS runtime. Absolutely not recommended for usage.
+
+Supports if-none-match and if-modified-since 304 returns and provides standard weak ETag headers.
+
+Run it with
+
+`bun run ./index.ts --dir ./test`
+
 To install dependencies:
 
 ```bash
