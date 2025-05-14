@@ -1,0 +1,16 @@
+{
+  "name": "bun-static-file-server",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "arg": "^5.0.2",
+    "pino": "^9.6.0"
+  }
+}
